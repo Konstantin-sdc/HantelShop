@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Hantel.Models.Material">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Manufacturer">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Manufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Grief">
+    <Position X="24.25" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAgA=</HashCode>
+      <FileName>Models\Hantel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Fixator">
+    <Position X="18.75" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Hantel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Cargo">
+    <Position X="21.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Hantel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Hantel">
+    <Position X="21.5" Y="16" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Hantel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.AbstractBase">
+    <Position X="18.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AbstractBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.AbstractElement">
+    <Position X="21.5" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\AbstractBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.HantelDetail">
+    <Position X="21" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABCADAAAAQQQAAAAAEAAAA=</HashCode>
+      <FileName>Models\AbstractBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Form">
+    <Position X="34.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AbstractBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Merchandise">
+    <Position X="26.75" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Merchandise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.CoatingPlace">
+    <Position X="32.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AbstractBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Rating">
+    <Position X="3.5" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAAAIAAEAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Models\Rating.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+      <Property Name="Points" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hantel.Models.SeparableHantel">
+    <Position X="21.5" Y="18.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Hantel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.MetricUnit">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AbstractBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.FixatorType">
+    <Position X="30" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Hantel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Storage">
+    <Position X="11.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Merchandise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Purchase">
+    <Position X="11" Y="11.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Merchandise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.ApplicationUser">
+    <Position X="2.75" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.MerchandiseAction">
+    <Position X="12.25" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Merchandise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hantel.Models.Favorite">
+    <Position X="13.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Merchandise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Hantel.Models.RatingEnum">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Models\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
