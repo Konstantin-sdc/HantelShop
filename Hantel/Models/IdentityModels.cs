@@ -4,23 +4,23 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace HantelShop.Models {
-  // В профиль пользователя можно добавить дополнительные данные, если указать больше свойств для класса ApplicationUser. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=317594.
-  public class ApplicationUser : IdentityUser {
-    public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager) {
-      // Обратите внимание, что authenticationType должен совпадать с типом, определенным в CookieAuthenticationOptions.AuthenticationType
-      ClaimsIdentity userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
-      // Здесь добавьте утверждения пользователя
-      return userIdentity;
-    }
-  }
-
-  public class ApplicationDbContext : IdentityDbContext<ApplicationUser> {
-    public ApplicationDbContext()
-        : base("DefaultConnection", throwIfV1Schema: false) {
+    // В профиль пользователя можно добавить дополнительные данные, если указать больше свойств для класса ApplicationUser. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=317594.
+    public class ApplicationUser : IdentityUser {
+        public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager) {
+            // Обратите внимание, что authenticationType должен совпадать с типом, определенным в CookieAuthenticationOptions.AuthenticationType
+            ClaimsIdentity userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
+            // Здесь добавьте утверждения пользователя
+            return userIdentity;
+        }
     }
 
-    public static ApplicationDbContext Create() {
-      return new ApplicationDbContext();
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser> {
+        public ApplicationDbContext()
+            : base("DefaultConnection", throwIfV1Schema: false) {
+        }
+
+        public static ApplicationDbContext Create() {
+            return new ApplicationDbContext();
+        }
     }
-  }
 }
